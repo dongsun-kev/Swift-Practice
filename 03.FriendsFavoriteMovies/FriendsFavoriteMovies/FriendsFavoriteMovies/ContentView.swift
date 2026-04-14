@@ -21,6 +21,6 @@ struct ContentView: View {
     }
 }
 #Preview {
-    ContentView()    
+    ContentView()
         .modelContainer(SampleData.shared.modelContainer)
 }
